@@ -7,13 +7,13 @@
        <h1>Hmtl Forms</h1> 
        <form >
         <label for="username">Username: </label>
-        <input type="text" name="" id="username">
+        <input type="text" name="" id="username" placeholder = "your name ">
         <br><br>
         <label for="email">Email:</label>
-        <input type="email", id = "email">
+        <input type="email", id = "email" placeholder = "your email ">
         <br><br>
         <label for="password">Password:</label>
-        <input type="password" name="" id="password">
+        <input type="password" name="" id="password" placeholder = "your password ">
 
         <p>Select your age</p>
         <input type="radio", name="age", value="0-25", id="option-1">
@@ -21,6 +21,20 @@
         <br>
         <input type="radio", name = "age", value = "26-50", id="option-2">
         <label for="option-2">26-50</label>
+        <!-- select box -->
+         <br><br>
+         <label for="question">Security Question</label>
+         <select name="question" id="question">
+            <option value="q1">Favourite color</option>
+            <option value="q2">Favourite meal</option>
+         </select>
+         <br><br>
+         <label for="answer">Answer: </label>
+         <input type="text", id="answer", placeholder="Security answer">
+         <br><br>
+         <textarea name="bio" id="bio" cols="50" rows="20" placeholder="your bio..."></textarea>
+         <br><br>
+         <input type="submit" value="Submit the form">
        </form>
     </body>
 </html>
